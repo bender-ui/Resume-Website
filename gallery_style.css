@@ -1,0 +1,30 @@
+@import url(“gallery_style.css”); 
+
+body{
+    margin: 0;
+    background-color: #101010;
+    color: #D6CFC7;
+    text-align: center;
+  }
+
+ .img{
+    position: relative
+ }
+ img:nth-child(1) { 
+    right: 10px;   
+}
+ img:nth-child(2) { 
+    left: 10px;    
+}
+ img:nth-child(3) {
+    top: -420px; right: 10px;  
+}
+img:nth-child(4) {
+    top: 20px; left: 10px; 
+}
+img:nth-child(5){ 
+    right: 210px; top: -400px; 
+}
+img:nth-child(6){ 
+    top: -800px; 
+}
